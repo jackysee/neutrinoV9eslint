@@ -1,0 +1,24 @@
+{
+  "name": "neutrinoV9eslint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development",
+    "lint": "eslint --cache --ext mjs,jsx,js src",
+    "print": "node -p \"require('./.eslintrc.js')\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@neutrinojs/airbnb-base": "9.0.0-beta.0",
+    "@neutrinojs/web": "9.0.0-beta.0",
+    "eslint": "5.6.1",
+    "neutrino": "9.0.0-beta.0",
+    "webpack": "4.20.2",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "3.1.9"
+  }
+}
